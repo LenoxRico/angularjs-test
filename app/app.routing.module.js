@@ -1,15 +1,15 @@
 'use strict';
 
 angular.
-  module('phonecatApp').
+  module('rickAndMortyApp').
   config(['$routeProvider',
     function config($routeProvider) {
       $routeProvider.
         when('/', {
-          template: '<phone-list></phone-list>'
+          template: '<character-list></character-list>'
         }).
-        when('/phones/:phoneId', {
-          template: '<phone-detail></phone-detail>'
+        when('/character/:id', {
+          template: '<character-detail></character-detail>'
         }).
         otherwise('/');
     }

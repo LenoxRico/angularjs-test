@@ -1,0 +1,18 @@
+<div class="character-images">
+    <img ng-src="{{$ctrl.character.image}}" class="character" />
+  </div>
+  
+  <h1>{{$ctrl.character.name}}</h1>
+  
+  <p>{{$ctrl.character.status}}</p>
+
+  <p>{{$ctrl.character.species}}</p>
+
+  <p>{{$ctrl.character.gender}}</p>
+  
+  <ul class="character-thumbs">
+    <li ng-repeat="episode in $ctrl.character.episode">
+      {{episode}}
+    </li>
+  </ul>
+  

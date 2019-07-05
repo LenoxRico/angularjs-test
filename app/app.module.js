@@ -1,10 +1,10 @@
 'use strict';
 
-// Define the `phonecatApp` module
-angular.module('phonecatApp', [
+// Define the `rickAndMortyApp` module
+angular.module('rickAndMortyApp', [
   'ngAnimate',
   'ngRoute',
   'core',
-  'phoneDetail',
-  'phoneList'
+  'characterList',
+  'characterDetail'
 ]);
